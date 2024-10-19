@@ -10,7 +10,7 @@ let config = {
 	locale: "en-US",
 	logLevel: ["INFO", "LOG", "WARN", "ERROR"],
 	timeFormat: 24,
-	units: "metric",
+	units: "imperial",
 
 	modules: [
 		{
