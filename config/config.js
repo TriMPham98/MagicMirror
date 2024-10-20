@@ -43,25 +43,22 @@ let config = {
             config: {
                 compliments: {
                     anytime: [
-                        "Hey there sexy!",
                         "You look great today!",
                         "Looking good!",
                         "Wow, you look fantastic!"
                     ],
                     morning: [
-                        "Good morning, handsome!",
+                        "Top of the morning!",
                         "Enjoy your day!",
                         "How was your sleep?"
                     ],
                     afternoon: [
-                        "Hello, beauty!",
-                        "You look sexy!",
+                        "You look charming!",
                         "Looking good today!"
                     ],
                     evening: [
-                        "Wow, you look hot!",
                         "You look nice!",
-                        "Hi, sexy!"
+                        "Good evening!"
                     ]
                 }
             }
