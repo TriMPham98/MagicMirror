@@ -62,7 +62,29 @@ let config = {
 				lat: 37.7749,
 				lon: -122.4194
 			}
-		}
+		},
+		// {
+		// 	module: "MMM-APOD",
+		// 	position: "fullscreen_below",
+		// 	config: {
+		// 		appid: "UzbYQacVqdlHwYdAsgH6gsQWnPEjZqkOElHntK0h", // Replace with your actual NASA API key
+		// 		updateInterval: 6 * 60 * 60 * 1000, // Update every 6 hours
+		// 		animationSpeed: 1000,
+		// 		maxMediaWidth: 0, // 0 means use actual width
+		// 		maxMediaHeight: 0, // 0 means use actual height
+		// 		maxDescriptionLength: 200,
+		// 		backgroundSize: "cover",
+		// 		backgroundPosition: "center",
+		// 		backgroundOverlay: "linear-gradient(to bottom, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0.75) 100%)",
+		// 		showTitle: true,
+		// 		showDescription: false,
+		// 		useShortDescription: true,
+		// 		initialLoadDelay: 0,
+		// 		retryDelay: 2500,
+		// 		apiBase: "https://api.nasa.gov/",
+		// 		apodEndpoint: "planetary/apod"
+		// 	}
+		// }
 	]
 };
 
