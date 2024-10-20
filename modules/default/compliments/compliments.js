@@ -5,7 +5,7 @@ Module.register("compliments", {
 	defaults: {
 		compliments: {
 			anytime: ["Howdy!"],
-			morning: ["Good morning, handsome!", "Enjoy your day!", "How was your sleep?"],
+			morning: ["Top of the morning!", "Enjoy your day!", "How was your sleep?"],
 			afternoon: ["Looking good today!"],
 			evening: ["Wow, you look charming!", "You look nice!"],
 			"....-01-01": ["Happy new year!"]
