@@ -39,26 +39,33 @@ let config = {
         },
         {
             module: "compliments",
-            position: "lower_third",
+            position: "bottom_bar", // Changed from "lower_third" to "bottom_bar"
             config: {
                 compliments: {
                     anytime: [
-                        "You look great today!",
-                        "Looking good!",
-                        "Wow, you look fantastic!"
+                        "The suit is ready for deployment, sir.",
+                        "Your coffee is prepared to your exact specifications.",
+                        "Shall I run diagnostics on the Mark 85, sir?",
+                        "Your latest invention is truly remarkable, sir.",
+                        "The world continues to be in awe of your genius, Mr. Stark."
                     ],
                     morning: [
-                        "Top of the morning!",
-                        "Enjoy your day!",
-                        "How was your sleep?"
+                        "Good morning, sir. The weather is perfect for a test flight.",
+                        "Breakfast is ready. Shall I brief you on today's schedule?",
+                        "Rise and shine, sir. Time to save the world again.",
+                        "Good morning. Your new armor upgrades are complete and ready for testing."
                     ],
                     afternoon: [
-                        "You look charming!",
-                        "Looking good today!"
+                        "Sir, might I remind you of the board meeting in an hour?",
+                        "Your 3 o'clock appointment has arrived. Shall I send them in?",
+                        "The lab results you requested are ready for your review, sir.",
+                        "Perhaps a short break is in order, sir. You've been working for 6 hours straight."
                     ],
                     evening: [
-                        "You look nice!",
-                        "Good evening!"
+                        "Dinner reservations have been made, sir. Your favorite table.",
+                        "Shall I initiate evening patrol protocols, sir?",
+                        "Maybe it's time to call it a night, sir. Even geniuses need sleep.",
+                        "The Avengers have sent a message. Shall I put it on screen?"
                     ]
                 }
             }
@@ -88,10 +95,10 @@ let config = {
             module: "MMM-IronManGIF",
             position: "middle_center",
             config: {
-                style: 4,              // Changed to style 4
-                maxWidth: "100%",      // Sizes the images. 
-                rotate: false,         // Rotate through images
-                updateInterval: 30000  // Interval between image rotations (30 seconds)
+                style: 4,
+                maxWidth: "100%",
+                rotate: false,
+                updateInterval: 30000
             }
         }
     ]
