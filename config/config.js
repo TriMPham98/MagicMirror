@@ -107,7 +107,7 @@ let config = {
             header: "TESLA Stock",
             config: {
                 currencyStyle: "code",
-                fadeSpeedInSeconds: 3.5,
+                fadeSpeedInSeconds: 6.9,
                 maxWidth: "100%",
                 numberDecimalsValues: 2,
                 displayMode: "vertical",
@@ -119,7 +119,8 @@ let config = {
                 updateIntervalInSeconds: 300,
                 useGrouping: true,
                 stocks: [
-                    { name: 'Tesla', symbol: 'TSLA' }
+                    { name: 'Tesla', symbol: 'TSLA' },
+                    { name: 'NVIDIA', symbol: 'NVDA'}
                 ]
             }
         }
