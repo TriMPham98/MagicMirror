@@ -104,7 +104,7 @@ let config = {
         {
             module: "MMM-Jast",
             position: "top_right",
-            header: "TESLA Stock",
+            header: "Stock Tracker",
             config: {
                 currencyStyle: "code",
                 fadeSpeedInSeconds: 6.9,
