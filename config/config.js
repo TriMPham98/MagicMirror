@@ -104,7 +104,7 @@ let config = {
         {
             module: "MMM-Jast",
             position: "top_right",
-            header: "Stock Tracker",
+            header: "Stock & Crypto Tracker",
             config: {
                 currencyStyle: "code",
                 fadeSpeedInSeconds: 6.9,
@@ -120,7 +120,9 @@ let config = {
                 useGrouping: true,
                 stocks: [
                     { name: 'Tesla', symbol: 'TSLA' },
-                    { name: 'NVIDIA', symbol: 'NVDA'}
+                    { name: 'NVIDIA', symbol: 'NVDA' },
+                    { name: 'Bitcoin', symbol: 'BTC-USD' },
+                    { name: 'Dogecoin', symbol: 'DOGE-USD' }
                 ]
             }
         }
