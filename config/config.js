@@ -39,7 +39,7 @@ let config = {
         },
         {
             module: "compliments",
-            position: "bottom_bar", // Changed from "lower_third" to "bottom_bar"
+            position: "bottom_bar",
             config: {
                 compliments: {
                     anytime: [
@@ -99,6 +99,28 @@ let config = {
                 maxWidth: "100%",
                 rotate: false,
                 updateInterval: 30000
+            }
+        },
+        {
+            module: "MMM-Jast",
+            position: "top_right",
+            header: "TESLA Stock",
+            config: {
+                currencyStyle: "code",
+                fadeSpeedInSeconds: 3.5,
+                maxWidth: "100%",
+                numberDecimalsValues: 2,
+                displayMode: "vertical",
+                showColors: true,
+                showCurrency: true,
+                showChangePercent: true,
+                showChangeValue: true,
+                showLastUpdate: true,
+                updateIntervalInSeconds: 300,
+                useGrouping: true,
+                stocks: [
+                    { name: 'Tesla', symbol: 'TSLA' }
+                ]
             }
         }
     ]
