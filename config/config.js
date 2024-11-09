@@ -11,6 +11,14 @@ let config = {
     logLevel: ["INFO", "LOG", "WARN", "ERROR"],
     timeFormat: 24,
     units: "imperial",
+    electronOptions: {
+        webPreferences: {
+            webviewTag: true,
+            contextIsolation: false,
+            enableRemoteModule: true
+        },
+        powerSaveBlocker: true
+    },
     modules: [
         {
             module: "alert",
